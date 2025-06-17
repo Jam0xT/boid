@@ -1,0 +1,35 @@
+#app {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	height: 100dvh;
+	width: 100%;
+	overflow: hidden;
+}
+
+canvas {
+	position: absolute;
+	display: flex;
+}
+
+#control {
+	bottom: 1rem;
+	right: 1rem;
+	position: absolute;
+}
+
+#info {
+	bottom: 1rem;
+	left: 1rem;
+	position: absolute;
+	color: #FFF2E0;
+}
+
+label {
+	color: #FFF2E0;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
